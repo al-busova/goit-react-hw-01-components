@@ -1,0 +1,13 @@
+.friendList {
+  list-style: none;
+}
+.avatar {
+  width: 150px;
+  border-radius: 10%;
+}
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: chartreuse;
+}
