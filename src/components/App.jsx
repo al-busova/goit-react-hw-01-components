@@ -7,6 +7,7 @@ import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import css from "./App.module.css";
+
 export const App = () => {
   return (
     <main className={css.container}>

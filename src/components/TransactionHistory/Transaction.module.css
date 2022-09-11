@@ -1,0 +1,21 @@
+.transactionHistory {
+  width: 420px;
+  border-collapse: unset;
+  border: 1px solid blue;
+}
+.headTable {
+  background-color: rgb(71, 168, 233);
+  color: white;
+  font-size: 24px;
+}
+.headTableItem {
+  padding: 4px;
+}
+.bodyTable {
+  background-color: rgb(235, 235, 241);
+}
+.bodyTableCell {
+  text-align: center;
+  padding: 4px;
+  color: rgb(79, 79, 204);
+}

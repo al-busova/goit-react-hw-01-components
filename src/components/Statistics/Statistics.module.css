@@ -1,3 +1,28 @@
+.statistics_section {
+  width: 360px;
+  background-color: rgb(229, 229, 240);
+  margin-bottom: 20px;
+}
+.title {
+  text-align: center;
+  padding: 15px;
+}
 .statList {
   list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.statItem {
+  flex-basis: calc(100% / 4);
+  text-align: center;
+  color: white;
+  padding: 8px;
+}
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+.percentage {
+  font-size: 24px;
 }

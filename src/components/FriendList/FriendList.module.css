@@ -1,13 +1,33 @@
 .friendList {
   list-style: none;
+  padding-left: 0;
+}
+.friendItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  box-shadow: 1px 1.5px 7px black;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .avatar {
-  width: 150px;
+  width: 100px;
   border-radius: 10%;
 }
 .status {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.true {
   background-color: chartreuse;
+}
+.false {
+  background-color: rgb(238, 12, 12);
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
 }
